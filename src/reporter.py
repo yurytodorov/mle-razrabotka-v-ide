@@ -24,7 +24,3 @@ class DataFrameReporter:
         # выведите долю пропусков во всем датафрейме одним числом с плавающей точкой
         # в формате float_format
         print('Доля пропусков:', format(df.isna().mean().mean(), self.float_format))
-
-import pandas as pd
-
-data = pd.read_csv('data/payments.csv')
